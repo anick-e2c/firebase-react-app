@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image:  url('/bg.jpg');
+  background-image:  url('/bg-motif-2.jpg');
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,4 +24,5 @@ body{
   backdrop-filter: blur(19px) saturate(180%);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.651);
 }

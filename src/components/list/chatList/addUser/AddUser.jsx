@@ -12,7 +12,7 @@ function AddUser() {
         <div className="user">
             <div className="detail">
                 <img src="./avatar.png" alt="" />
-                <span>JaneDoe</span>
+                <span>Jane Doe</span>
             </div>
             <button>Add User</button>
         </div>

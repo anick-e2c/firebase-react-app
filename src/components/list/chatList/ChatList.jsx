@@ -18,8 +18,6 @@ function ChatList() {
             >
                 <img src="./search.png" alt="search" />
                 <input 
-                    
-                    
                     type="text" 
                     placeholder='Search'
                 />
@@ -35,6 +33,16 @@ function ChatList() {
                 <span>Jane Doe</span>
                 <p>Hello!</p>
             </div>
+            <div className="messageFocus"><span>1</span></div>
+        </div>
+        <div className="item">
+            <img src="./avatar.png" alt="avatar" />
+            <div className="texts">
+                <span>Jane Doe</span>
+                <p>Hi, I like when you...</p>
+            </div>
+            <div className="messageFocus"><span>100</span></div>
+
         </div>
         <div className="item">
             <img src="./avatar.png" alt="avatar" />
@@ -42,6 +50,8 @@ function ChatList() {
                 <span>Jane Doe</span>
                 <p>Hello!</p>
             </div>
+            <div className="messageFocus"><span>15</span></div>
+
         </div>
         <div className="item">
             <img src="./avatar.png" alt="avatar" />
@@ -49,6 +59,15 @@ function ChatList() {
                 <span>Jane Doe</span>
                 <p>Hello!</p>
             </div>
+            <div className="messageFocus"><span>1</span></div>
+        </div>
+        <div className="item">
+            <img src="./avatar.png" alt="avatar" />
+            <div className="texts">
+                <span>Jane Doe</span>
+                <p>Hello! How are?</p>
+            </div>
+            <div className="messageFocus"><span>1</span></div>
         </div>
         <div className="item">
             <img src="./avatar.png" alt="avatar" />
@@ -56,6 +75,7 @@ function ChatList() {
                 <span>Jane Doe</span>
                 <p>Hello!</p>
             </div>
+            <div className="messageFocus"><span>25</span></div>
         </div>
         <div className="item">
             <img src="./avatar.png" alt="avatar" />
@@ -63,6 +83,7 @@ function ChatList() {
                 <span>Jane Doe</span>
                 <p>Hello!</p>
             </div>
+            <div className="messageFocus"><span>1</span></div>
         </div>
         <div className="item">
             <img src="./avatar.png" alt="avatar" />
@@ -70,6 +91,15 @@ function ChatList() {
                 <span>Jane Doe</span>
                 <p>Hello!</p>
             </div>
+            <div className="messageFocus"><span>10</span></div>
+        </div>
+        <div className="item">
+            <img src="./avatar.png" alt="avatar" />
+            <div className="texts">
+                <span>Jane Doe</span>
+                <p>oh what's happen ? My bro...</p>
+            </div>
+            <div className="messageFocus"><span>5</span></div>
         </div>
         {addMode && <AddUser />}
         

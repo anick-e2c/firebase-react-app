@@ -1,9 +1,11 @@
 .userInfo{
-    padding: 10px;
+    padding: 25px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    border-bottom: 1.5px solid #dddddd35;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        border-radius: 0 0 0 15px;
     
     
     .user{
@@ -16,6 +18,8 @@
             height: 50px;
             border-radius: 50%;
             object-fit: cover;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
         }
     }
 

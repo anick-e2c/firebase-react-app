@@ -1,11 +1,13 @@
 .chatList{
     flex: 1;
     overflow-y: scroll;
+    padding: 0 0 20px  0;
     .search{
         display: flex;
         align-items: center;
         gap: 20px;
         padding: 20px;
+        
 
         .searchBar{
             flex: 1;
@@ -15,6 +17,8 @@
             gap: 20px;
             padding: 10px 20px;
             border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        
 
             input{
                 flex: 1;
@@ -40,6 +44,7 @@
             border-radius: 10px;
             padding: 10px;
             cursor: pointer;
+            
         }
     }
     .item {
@@ -49,12 +54,15 @@
         padding: 10px;
         cursor: pointer;
         border-bottom: 1px solid #dddddd35;
+        
 
         img{
             width: 50px;
             height: 50px;
             border-radius: 50%;
             object-fit: cover;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
         }
         .texts{
             display: flex;
@@ -70,6 +78,29 @@
                 font-weight: 300;
             }
 
+        }
+        .messageFocus{
+            
+            margin-left: auto;
+            margin-right: 15px;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            gap: 25px;
+            background-color: rgba(244, 30, 72, 0.753);
+
+            span{
+                color: white;
+                font-size: 10px;
+                font-weight: 500;
+                font-style: italic;
+                position: relative;
+                top: 25%;
+    left: -1.1px;
+                display: flex;
+                align-items: center;
+                justify-self: center;
+            }
         }
     }
 }
